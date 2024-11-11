@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ваш-репозиторий/smart-logger-ts.git"
+    "url": "https://github.com/magiskdev/smart-logger-ts"
   },
   "keywords": [
     "logger",
@@ -26,7 +26,6 @@
   "devDependencies": {
     "@types/node": "^22.9.0",
     "css-loader": "^5.2.7",
-    "mini-css-extract-plugin": "^2.0.0",
     "postcss-loader": "^8.1.1",
     "sass": "^1.32.0",
     "sass-loader": "^12.0.0",
