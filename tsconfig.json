@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "outDir": "./dist",
+    "declaration": true,
+    "declarationDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "jsx": "react",
+    "resolveJsonModule": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
