@@ -1,6 +1,6 @@
 {
   "name": "smart-logger-ts",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Flexible and powerful logger for TypeScript projects with visual and console modes",
   "main": "./dist/main.umd.js",
   "module": "./dist/main.es.js",
