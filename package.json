@@ -8,7 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "webpack",
+    "build": "tsc && webpack",
     "prepublishOnly": "npm run build"
   },
   "repository": {
@@ -24,7 +24,11 @@
   "author": "Your Name",
   "license": "MIT",
   "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-typescript": "^7.26.0",
     "@types/node": "^22.9.0",
+    "babel-loader": "^9.2.1",
+    "core-js": "^3.39.0",
     "css-loader": "^5.2.7",
     "postcss-loader": "^8.1.1",
     "sass": "^1.32.0",

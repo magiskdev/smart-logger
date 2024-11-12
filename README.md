@@ -29,7 +29,7 @@ Smart Logger позволяет:
 1. Инициализация логгера
 
 ```
-import { initLoggerConfig, useLogger } from 'smart-logger-ts';
+import { initLoggerConfig } from 'smart-logger-ts';
 
 // Инициализация логгеров с настройками
 const { useLogger, switchLoggerMode } = initLoggerConfig(

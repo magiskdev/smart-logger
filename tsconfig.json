@@ -1,17 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "ESNext",
-    "outDir": "./dist",
+    "target": "es5",
+    "module": "esnext",
     "declaration": true,
-    "declarationDir": "./dist",
+    "emitDeclarationOnly": true,
+    "declarationMap": false,
+    "outDir": "./dist/types",
     "strict": true,
     "esModuleInterop": true,
-    "moduleResolution": "node",
-    "sourceMap": true,
-    "jsx": "react",
-    "resolveJsonModule": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
