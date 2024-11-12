@@ -1,0 +1,1 @@
+export { initLoggerConfig } from "./logger";

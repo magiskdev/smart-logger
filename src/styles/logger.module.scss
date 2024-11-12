@@ -4,18 +4,17 @@
   right: 0;
   width: 30%;
   height: 100vh;
-  overflow-y: scroll;
+  overflow-y: auto;
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 9999999999;
-  padding: 2rem;
+  padding: 2px;
   display: none;
 
   & > p {
     color: white;
     text-align: left;
     font-family: 'monospace';
-    font-size: 1.4rem;
-    line-height: 1.6rem;
-    margin: '5px 0';
+    font-size: 14px;
+    line-height: 14px;
   }
 }
