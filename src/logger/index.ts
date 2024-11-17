@@ -104,8 +104,13 @@ export function initLoggerConfig<T extends Record<string, TModuleConfig>>(
     LoggerRender.switchMode(mode);
   }
 
-  window.useLogger = useLogger;
-  window.switchLoggerMode = switchLoggerMode;
+  if (typeof window !== 'undefined') {
+      window.useLogger = useLogger;
+  }
+
+  if (typeof window !== 'undefined') {
+      window.switchLoggerMode = switchLoggerMode;
+  }
 
   return { useLogger, switchLoggerMode };
 }
