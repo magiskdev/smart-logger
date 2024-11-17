@@ -1,4 +1,4 @@
-import styles from '../styles/logger.module.scss';
+// import styles from '../styles/logger.module.scss';
 
 import { TLoggerMode, TLoggerOptions } from '../logger/types';
 
@@ -23,7 +23,7 @@ export class LoggerRender {
     LoggerRender.logStyles = options?.logStyles;
 
     LoggerRender.container = document.createElement('div');
-    LoggerRender.container.classList.add(styles.logger);
+    // LoggerRender.container.classList.add(styles.logger);
 
     if (LoggerRender.containerStyles) {
       Object.assign(LoggerRender.container.style, LoggerRender.containerStyles);
